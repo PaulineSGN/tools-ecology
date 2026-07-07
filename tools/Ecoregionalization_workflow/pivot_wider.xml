@@ -36,7 +36,7 @@
              <option value="max">Maximum</option>
              <option value="min">Minimum</option>
         </param>
-        <param name="replace_bin" type="boolean" label="Convert to binary data" help="If enabled, all values greater than or equal to 1 will be replaced by 1, producing a binary (0/1) table if there is no data <0. This conversion is applied **after** aggregation, so it takes into account the combined values."/>
+        <param name="replace_bin" type="boolean" label="Convert to binary data" help="If enabled, all values greater than or equal to 1 will be replaced by 1, producing a binary (0/1) table if there is no data less than 0. This conversion is applied **after** aggregation, so it takes into account the combined values."/>
     </inputs>
     <outputs>
         <data name="output" from_work_dir="pivot_file.tabular" format="tabular" label="pivot_file.tabular"/>
