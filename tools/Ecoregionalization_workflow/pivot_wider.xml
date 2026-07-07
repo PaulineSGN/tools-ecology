@@ -7,8 +7,8 @@
         <requirement type="package" version="1.3.2">r-tidyr</requirement>
     </requirements>
     <required_files>
-        <include path="test_pivot_wider.tabular" />
-        <include path="pivot_file.tabular" />
+        <include path="test-data/test_pivot_wider.tabular" />
+        <include path="test-data/pivot_file.tabular" />
     </required_files>
     
     <command detect_errors="exit_code">
